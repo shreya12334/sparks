@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0;
+}
+
+.load {
+  animation: slide 2s;
+}
+
+.slider {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 20s infinite;
+  background-color: black;
+}
+
+.nav-bar nav {
+  width: 100%;
+  background-color: #f0f8ff;
+  height: 50px;
+  /* position: fixed; */
+}
+
+.header .nav-bar nav h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  margin-top: 5px;
+  color: #00308f;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.header .nav-bar nav ul {
+  display: flex;
+  padding: -40px 29px;
+  margin-top: -34px;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.header .nav-bar nav ul li {
+  list-style: none;
+  margin: -5px 45px;
+}
+
+.header nav.circle ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  color: #00308f;
+}
+
+.header nav.circle ul li a:hover {
+  color: white;
+  background-color: darkblue;
+}
+
+.overlay {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider .overlay .btn {
+  margin-top: 194px;
+}
+
+.header .icons {
+  margin-top: -47px;
+}
+
+.header .icons .ig {
+  margin: -66px 612px;
+  position: fixed;
+  cursor: pointer;
+}
+
+.header .icons .ig:hover {
+  transform: scale(1.2);
+}
+
+.header .icons .fb {
+  margin: -69px 745px;
+  position: fixed;
+  cursor: pointer;
+}
+
+.header .icons .fb:hover {
+  transform: scale(1.2);
+}
+
+.header .icons .mail {
+  margin: -68px 880px;
+  position: fixed;
+  cursor: pointer;
+}
+.header .icons .mail:hover {
+  transform: scale(1.2);
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9vciUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60");
+  }
+
+  20% {
+    background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9vciUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60");
+  }
+
+  20.1% {
+    background-image: url("https://images.unsplash.com/photo-1542810634-71277d95dcbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9vciUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60");
+  }
+
+  40% {
+    background-image: url("https://images.unsplash.com/photo-1542810634-71277d95dcbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9vciUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60");
+  }
+  40.1% {
+    background-image: url("https://media.istockphoto.com/photos/group-of-african-children-east-africa-picture-id486056541?b=1&k=20&m=486056541&s=170667a&w=0&h=BwjFBxL9BZAz8a7Rw1Y1eawjpsQJ2j8SC0XsGV5i7e8=");
+  }
+  60% {
+    background-image: url("https://media.istockphoto.com/photos/group-of-african-children-east-africa-picture-id486056541?b=1&k=20&m=486056541&s=170667a&w=0&h=BwjFBxL9BZAz8a7Rw1Y1eawjpsQJ2j8SC0XsGV5i7e8=");
+  }
+  60.1% {
+    background-image: url("https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/35000/35896/image/c246cd1f3c9335c7b0c0262f3ca08dce68403c9f.jpg");
+  }
+
+  80% {
+    background-image: url("https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/35000/35896/image/c246cd1f3c9335c7b0c0262f3ca08dce68403c9f.jpg");
+  }
+  80.1% {
+    background-image: url("https://images.unsplash.com/photo-1567057419565-4349c49d8a04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvb3IlMjBjaGlsZHJlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60");
+  }
+
+  100% {
+    background-image: url("https://images.unsplash.com/photo-1567057419565-4349c49d8a04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvb3IlMjBjaGlsZHJlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60");
+  }
+}
